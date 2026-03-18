@@ -8,6 +8,8 @@
 
 Este proyecto despliega una arquitectura analítica moderna basada en el paradigma de **Data Mesh** utilizando los servicios de Google Cloud Platform (GCP). Su objetivo principal es descentralizar la propiedad de los datos hacia dominios de negocio específicos (Inventario, Logística, Operaciones), manteniendo un catálogo gobernado y una infraestructura como código (IaC) de autoservicio.
 
+![Arquitectura del Proyecto](img/arquitectura.png)
+
 ## 🏢 Arquitectura por Dominios
 
 El proyecto divide la plataforma de comercio electrónico en tres dominios clave, cada uno con su propia base de datos operativa y su representación en la capa analítica de BigQuery:
