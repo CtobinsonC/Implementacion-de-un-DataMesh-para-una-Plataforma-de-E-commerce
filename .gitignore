@@ -1,0 +1,32 @@
+# Entorno Virtual Python
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de entorno y credenciales
+.env
+*.json
+*.pem
+
+# Archivos de Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs de Airflow y Dataproc
+logs/
+airflow-webserver.pid
